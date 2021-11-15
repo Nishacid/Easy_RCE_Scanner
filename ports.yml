@@ -1,0 +1,110 @@
+# All sensitive portss
+---
+1:
+  name: "IBM WebSphere"
+  ports: 8880
+  description: "CVE-2015-7450"
+2:
+  name: "Apache Hadoop"
+  ports: 8088
+  description: "CVE-2018-11766"
+3:
+  name: "Apache Spark"
+  ports: 6066
+  description: "CVE-2018-11770 \n[*] CVE-2020-9480"
+4:
+  name: "Apache Solr"
+  ports: 8983
+  description: "CVE-2019-17558 \n[*] CVE-2019-0193 \n[*] CVE-2019-12409"
+5:
+  name: "Redis"
+  ports: 6379
+  description: "https://book.hacktricks.xyz/pentesting/6379-pentesting-redis#redis-rce \n[*] https://2018.zeronights.ru/wp-content/uploads/materials/15-redis-post-exploitation.pdf"
+6:
+  name: "Docker"
+  ports: 
+  - 2375
+  - 2376
+  description: "https://book.hacktricks.xyz/pentesting/2375-pentesting-docker"
+7:
+  name: "Zoho Manageengine Desktop"
+  ports: 8383
+  description: "CVE-2020-10189"
+8:
+  name: "Atlassian Crowd"
+  ports: 4990
+  description: "CVE-2019-11580"
+9:
+  name: "portainer"
+  ports: 9000
+  description: "CVE-2018-12678"
+10:
+  name: "Hashicorp Consul"
+  ports: 8500
+  description: "https://www.exploit-db.com/exploits/46074"
+11:
+  name: "Java RMI"
+  ports:
+  - 1090
+  - 1098
+  - 1099 
+  - 4444 
+  - 11099 
+  - 47001 
+  - 47002 
+  - 10999
+  description: "https://book.hacktricks.xyz/pentesting/1099-pentesting-java-rmi"
+12:
+  name: "WebLogic"
+  ports: 
+  - 7000
+  - 7001
+  - 7002 
+  - 7003 
+  - 7004 
+  - 8000 
+  - 8001 
+  - 8002
+  - 8003
+  - 9000
+  - 9001
+  - 9002
+  - 9003
+  - 9503
+  - 7070
+  - 7071
+  description: "CVE-2020-14882"
+13:
+  name: "JDWP"
+  ports: 
+  - 45000
+  - 45001
+  description: "https://book.hacktricks.xyz/pentesting/pentesting-jdwp-java-debug-wire-protocol \n[*] https://www.exploit-db.com/exploits/46501"
+14:
+  name: "JMX"
+  ports: 
+  - 8686
+  - 9012
+  - 50500
+  description: "https://www.exploit-db.com/exploits/36101"
+15:
+  name: "GlassFish"
+  ports: 4848
+  description: "CVE-2016-3427"
+16:
+  name: "jBoss"
+  ports: 
+  - 11111
+  - 4444
+  - 4445
+  description: "https://book.hacktricks.xyz/pentesting/pentesting-web/jboss \n[*] https://www.exploit-db.com/exploits/36575"
+17:
+  name: "Ciso Smart Install"
+  ports: 4786
+  description: "CVE-2018-0171"
+18:
+  name: "HP Data Protector"
+  ports: 
+  - 5555
+  - 5556
+  description: "CVE-2016-2004"
