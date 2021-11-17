@@ -24,6 +24,14 @@ It will help you find sensitive open ports, which usually leads to an `easy RCE`
 - Ciso Smart Install : 4786
 - HP Data Protector : 5555,5556
 
+## Installation 
+
+```bash
+git clone https://github.com/Nishacid/Easy_RCE_Scanner.git
+cd  Easy_RCE_Scanner/
+pip3 install -r requirements.txt
+```
+
 ## Usage
 
 ```bash
